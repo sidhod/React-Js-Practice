@@ -19,6 +19,8 @@ import DestrutureExample from './components/destructuring/exampleOfDes';
 import FunctionClick from './components/eventHandling/functionEventhandling';
 import FunctionClickExample from './components/eventHandling/functionEventHandlingExample';
 import ClassEventHandler from './components/eventHandling/classEventHandling';
+import EventBinding from './components/eventBinding/eventBinding';
+import SquareOfNo from './components/eventBinding/eventBindingExample';
 function App() {
   return (
     <div className="App">
@@ -60,8 +62,10 @@ function App() {
       <Destruture FirstName="Sai" LastName="Kamble" />
       <DestrutureExample FirstName="Sai" LastName="Kamble" /> */}
       {/* <FunctionClick /> */}
-      <FunctionClickExample />
-      <ClassEventHandler />
+      {/* <FunctionClickExample />
+      <ClassEventHandler /> */}
+      {/* <EventBinding /> */}
+      <SquareOfNo />
 
     </div>
   );
