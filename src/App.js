@@ -10,10 +10,13 @@ import ShowNames from './components/props/props';
 import Names from './components/props/propsClass';
 import FullName from './components/props/propsExample';
 import FullName1 from './components/props/propsClassExample';
+import Message from './components/State/state';
+import GiveImage from './components/State/stateExample';
 
 function App() {
   return (
     <div className="App">
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -41,9 +44,11 @@ function App() {
       {/* <FullName FirstName="Sai" LastName="Kamble" />
       <FullName FirstName="Rohit" LastName="Kamble" />
       <FullName FirstName="Sakshi" LastName="Kamble" /> */}
-      <FullName1 FirstName="Sai" LastName="Kamble" />
+      {/* <FullName1 FirstName="Sai" LastName="Kamble" />
       <FullName1 FirstName="Rohit" LastName="Kamble" />
-      <FullName1 FirstName="Sakshi" LastName="Kamble" />
+      <FullName1 FirstName="Sakshi" LastName="Kamble" /> */}
+      <Message />
+      <GiveImage />
     </div>
   );
 }
