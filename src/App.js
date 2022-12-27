@@ -12,7 +12,8 @@ import FullName from './components/props/propsExample';
 import FullName1 from './components/props/propsClassExample';
 import Message from './components/State/state';
 import GiveImage from './components/State/stateExample';
-
+import Counter from './components/setState/Counter';
+import Square from './components/setState/setStateExample';
 function App() {
   return (
     <div className="App">
@@ -47,8 +48,10 @@ function App() {
       {/* <FullName1 FirstName="Sai" LastName="Kamble" />
       <FullName1 FirstName="Rohit" LastName="Kamble" />
       <FullName1 FirstName="Sakshi" LastName="Kamble" /> */}
-      <Message />
+      {/* <Message />
       <GiveImage />
+      <Counter /> */}
+      <Square />
     </div>
   );
 }
