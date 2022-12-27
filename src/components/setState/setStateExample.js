@@ -18,7 +18,7 @@ class Square extends Component {
     render() {
         return (
             <div>
-                <h4>Square {this.state.number} = {this.state.square}</h4>
+                <h4>Square {this.state.number - 1} = {this.state.square}</h4>
                 <button onClick={() => {
                     this.square();
                 }}>Square</button>

@@ -14,6 +14,8 @@ import Message from './components/State/state';
 import GiveImage from './components/State/stateExample';
 import Counter from './components/setState/Counter';
 import Square from './components/setState/setStateExample';
+import Destruture from './components/destructuring/destruturing';
+import DestrutureExample from './components/destructuring/exampleOfDes';
 function App() {
   return (
     <div className="App">
@@ -52,6 +54,8 @@ function App() {
       <GiveImage />
       <Counter /> */}
       <Square />
+      <Destruture FirstName="Sai" LastName="Kamble" />
+      <DestrutureExample FirstName="Sai" LastName="Kamble" />
     </div>
   );
 }
