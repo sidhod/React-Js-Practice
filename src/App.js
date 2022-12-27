@@ -16,6 +16,9 @@ import Counter from './components/setState/Counter';
 import Square from './components/setState/setStateExample';
 import Destruture from './components/destructuring/destruturing';
 import DestrutureExample from './components/destructuring/exampleOfDes';
+import FunctionClick from './components/eventHandling/functionEventhandling';
+import FunctionClickExample from './components/eventHandling/functionEventHandlingExample';
+import ClassEventHandler from './components/eventHandling/classEventHandling';
 function App() {
   return (
     <div className="App">
@@ -53,9 +56,13 @@ function App() {
       {/* <Message />
       <GiveImage />
       <Counter /> */}
-      <Square />
+      {/* <Square />
       <Destruture FirstName="Sai" LastName="Kamble" />
-      <DestrutureExample FirstName="Sai" LastName="Kamble" />
+      <DestrutureExample FirstName="Sai" LastName="Kamble" /> */}
+      {/* <FunctionClick /> */}
+      <FunctionClickExample />
+      <ClassEventHandler />
+
     </div>
   );
 }
