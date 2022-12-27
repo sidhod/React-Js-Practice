@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/function';
-import Result from './components/functionExample';
-import Welcome from './components/classComponet';
-import PrintName from './components/classComponetExample';
-import Hello from './jsx/hello';
-import Display from './jsx/jsxExample';
-import ShowNames from './props/props';
-import Names from './props/propsClass';
-import FullName from './props/propsExample';
-import FullName1 from './props/propsClassExample';
+import Greet from './components/classandfunction/function';
+import Result from './components/classandfunction/functionExample';
+import Welcome from './components/classandfunction/classComponet';
+import PrintName from './components/classandfunction/classComponetExample';
+import Hello from './components/jsx/hello';
+import Display from './components/jsx/jsxExample';
+import ShowNames from './components/props/props';
+import Names from './components/props/propsClass';
+import FullName from './components/props/propsExample';
+import FullName1 from './components/props/propsClassExample';
 
 function App() {
   return (
