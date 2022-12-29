@@ -21,6 +21,10 @@ import FunctionClickExample from './components/eventHandling/functionEventHandli
 import ClassEventHandler from './components/eventHandling/classEventHandling';
 import EventBinding from './components/eventBinding/eventBinding';
 import SquareOfNo from './components/eventBinding/eventBindingExample';
+import Print from './components/text';
+import HookCounter from './components/hooks-useSate/hooksfunction';
+import SquareNumber from './components/hooks-useSate/hookFunctionExample';
+import HookCounterImprove from './components/hooks-useSate/hooksFunction2';
 function App() {
   return (
     <div className="App">
@@ -65,7 +69,11 @@ function App() {
       {/* <FunctionClickExample />
       <ClassEventHandler /> */}
       {/* <EventBinding /> */}
-      <SquareOfNo />
+      {/* cd */}
+      {/* <Print /> */}
+      {/* <HookCounter /> */}
+      {/* <SquareNumber /> */}
+      <HookCounterImprove />
 
     </div>
   );
