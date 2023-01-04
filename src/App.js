@@ -46,6 +46,8 @@ import ParentComponents from './components/props/parentComponents';
 import ConditionalRenderingExample from './components/conditionalrendering/conditionalRenderingExampl';
 import ListRendering from './components/ListRendering/listRendering';
 import NameList from './components/ListRendering/listRenderingExample';
+import LifecycleA from './components/lifecycle/lifecycle1';
+import ClassCounterOne from './components/lifecycle/lifecycleExample';
 function App() {
   return (
     <div className="App">
@@ -115,7 +117,9 @@ function App() {
       {/* <ParentComponents /> */}
       {/* <ConditionalRenderingExample /> */}
       {/* <ListRendering /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <LifecycleA /> */}
+      <ClassCounterOne />
 
     </div>
   );
