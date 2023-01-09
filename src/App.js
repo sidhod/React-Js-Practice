@@ -48,6 +48,10 @@ import ListRendering from './components/ListRendering/listRendering';
 import NameList from './components/ListRendering/listRenderingExample';
 import LifecycleA from './components/lifecycle/lifecycle1';
 import ClassCounterOne from './components/lifecycle/lifecycleExample';
+import HoverCounter from './components/higherOrderComponent/hoverCounter';
+import ClickCounter from './components/higherOrderComponent/clickCounter';
+import ExampleA from './components/higherOrderComponent/ExampleA';
+import ExampleB from './components/higherOrderComponent/ExampleB';
 function App() {
   return (
     <div className="App">
@@ -118,8 +122,12 @@ function App() {
       {/* <ConditionalRenderingExample /> */}
       {/* <ListRendering /> */}
       {/* <NameList /> */}
-      {/* <LifecycleA /> */}
-      <ClassCounterOne />
+      {/* <LifecycleA />
+      <ClassCounterOne /> */}
+      {/* <ClickCounter />
+      <HoverCounter /> */}
+      <ExampleA />
+      <ExampleB />
 
     </div>
   );
