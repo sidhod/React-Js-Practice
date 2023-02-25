@@ -41,7 +41,7 @@ import MouseContainer from './components/useEffect/cleanup/mousetoggle';
 import CleanupExample from './components/useEffect/cleanup/Example';
 import IntervalClassCounter from './components/useEffect/intervalCounter.js/intervalCounter';
 import IntervalHookCounter from './components/useEffect/intervalCounter.js/intervalCountHooks';
-import DataFetching from './components/useEffect/data faching/dataFeaching';
+import DataFetching from './components/higherOrderComponent/data faching/dataFeaching';
 import ParentComponents from './components/props/parentComponents';
 import ConditionalRenderingExample from './components/conditionalrendering/conditionalRenderingExampl';
 import ListRendering from './components/ListRendering/listRendering';
@@ -52,6 +52,30 @@ import HoverCounter from './components/higherOrderComponent/hoverCounter';
 import ClickCounter from './components/higherOrderComponent/clickCounter';
 import ExampleA from './components/higherOrderComponent/ExampleA';
 import ExampleB from './components/higherOrderComponent/ExampleB';
+import { Counter1 } from './components/Redux/store1';
+import { Counter2 } from './components/Redux/counter';
+import { Provider } from 'react-redux';
+
+import ResponsiveGrid from './components/grid/grid';
+import FullWidthGrid from './components/grid/grid';
+import PostList from './components/higherOrderComponent/data faching/data';
+import ClickCounterTwo from './components/renderingProps/click';
+import HoverCounterTwo from './components/renderingProps/hover';
+import HoverCounterTwo2 from './components/renderingProps/hover';
+import PortalDemo from './components/portal/portal';
+import PortalExample from './components/portal/portalExample';
+import Hero from './components/errorBoundary/hero';
+import ErrorBoundary from './components/errorBoundary/errorboundary';
+import ParentC from './ParentC';
+import Interfaces from './components/Redux1/ui';
+// import store from './components/Redux1/store';
+import ParentComponent from './components/context/ParentComponent';
+import MemoExample from './components/memo/memo';
+import { Button } from '@mui/material';
+import ButtonComponents from './components/Redux3/ui3s';
+import store from './components/Redux3/store'
+import ParentCom from './components/context/Example/ParentCom';
+import Parent from './components/context/Practice/example';
 function App() {
   return (
     <div className="App">
@@ -124,12 +148,48 @@ function App() {
       {/* <NameList /> */}
       {/* <LifecycleA />
       <ClassCounterOne /> */}
+      {/* <Provider store={store}>
+        {/* <Counter2 /> */}
+      {/* <Interfaces />
+      </Provider> */}
+      {/* <FullWidthGrid /> */}
       {/* <ClickCounter />
       <HoverCounter /> */}
-      <ExampleA />
-      <ExampleB />
+      {/* <ExampleA />
+      <ExampleB /> */}
+      {/* <PostList /> */}
+      {/* <Counter
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
+      <Counter
+        render={(count, incrementCount) => (
+          <HoverCounterTwo2 count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
+      {/* <PortalDemo />
+      <PortalExample /> */}
 
-    </div>
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
+      {/* <ParentC /> */}
+      {/* <ParentComponent /> */}
+      {/* <ParentComponents /> */}
+      {/* <Provider store={store}>
+        <ButtonComponents />
+      </Provider> */}
+      {/* <ParentCom /> */}
+      <Parent />
+
+    </div >
   );
 }
 

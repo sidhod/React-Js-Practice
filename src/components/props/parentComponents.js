@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoExample from '../memo/memo'
 import ChildComponets from './childComponets'
 
 
@@ -17,6 +18,7 @@ class ParentComponents extends Component {
         return (
             <div>
                 <h1>Name:{this.state.name}</h1>
+                <MemoExample propsName={this.changeName} />
                 <ChildComponets propsName={this.changeName} />
             </div>
 
