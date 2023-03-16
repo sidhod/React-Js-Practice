@@ -7,6 +7,7 @@ class CounterClassConditionExample1 extends Component {
             lastName: ""
         }
     }
+
     componentDidMount() {
         document.title = `${this.state.firstName}`
     }

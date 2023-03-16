@@ -46,13 +46,13 @@ import ParentComponents from './components/props/parentComponents';
 import ConditionalRenderingExample from './components/conditionalrendering/conditionalRenderingExampl';
 import ListRendering from './components/ListRendering/listRendering';
 import NameList from './components/ListRendering/listRenderingExample';
-import LifecycleA from './components/lifecycle/lifecycle1';
-import ClassCounterOne from './components/lifecycle/lifecycleExample';
+// import LifecycleA from './components/lifecycle/lifecycle1';
+// import ClassCounterOne from './components/lifecycle/lifecycleExample';
 import HoverCounter from './components/higherOrderComponent/hoverCounter';
 import ClickCounter from './components/higherOrderComponent/clickCounter';
 import ExampleA from './components/higherOrderComponent/ExampleA';
 import ExampleB from './components/higherOrderComponent/ExampleB';
-import { Counter1 } from './components/Redux/store1';
+// import { Counter1 } from './components/Redux/store1';
 import { Counter2 } from './components/Redux/counter';
 import { Provider } from 'react-redux';
 
@@ -73,9 +73,35 @@ import ParentComponent from './components/context/ParentComponent';
 import MemoExample from './components/memo/memo';
 import { Button } from '@mui/material';
 import ButtonComponents from './components/Redux3/ui3s';
-import store from './components/Redux3/store'
+// import store from './components/Redux3/store'
 import ParentCom from './components/context/Example/ParentCom';
 import Parent from './components/context/Practice/example';
+import ParentComponete01 from './PracticeFiles/Practice28/ParentComponet01';
+import EventBinding01 from './PracticeFiles/Practice28/eventBinding';
+import UseEffect01 from './PracticeFiles/Practice28/UseEffect01';
+// import store from './PracticeFiles/02/store';
+import CounterTitleCondition02 from './PracticeFiles/02/useEffectCondition';
+import ConditionalRendering from './PracticeFiles/02/conditionalRendering';
+import UseContextExample from './PracticeFiles/03/UseContextExample';
+import LifecycleB from './PracticeFiles/03/lifecycle2';
+import LifecycleB03 from './PracticeFiles/03/lifecycle2';
+import ArrayMethods from './PracticeFiles/03/arrayMethods';
+import Uis from './PracticeFiles/03/Uis';
+// import store from './PracticeFiles/03/store';
+import Uis04 from './PracticeFiles/04/Uis';
+import store from './PracticeFiles/04/store';
+import ClassCounterOne from './components/lifecycle/lifecycleExample';
+import LifecycleA from './components/lifecycle/lifecycle1';
+import LifeCycleExampl02 from './components/lifecycle/LifeCycleExampl02';
+import ParentCom01 from './review/ParentCom';
+import TextField01 from './review/Review2/TextField';
+import ParentCom02 from './review/Review2/ParentCom';
+import UseCallBack from './components/useCallback/useCallback';
+import Counter012 from './components/useMemo/useMemo';
+import PureComponent from './components/pureComponents/pureComponent';
+import ParentComp from './components/pureComponents/ParentComp';
+
+
 function App() {
   return (
     <div className="App">
@@ -187,7 +213,35 @@ function App() {
         <ButtonComponents />
       </Provider> */}
       {/* <ParentCom /> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <ParentComponete01 /> */}
+      {/* <EventBinding01 /> */}
+      {/* <UseEffect01 /> */}
+      {/* <Provider store={store}>
+        <ButtonComponents></ButtonComponents>
+      </Provider> */}
+      {/* <CounterTitleCondition02 /> */}
+      {/* <IntervalClassCounter /> */}
+      {/* <IntervalHookCounter /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <UseContextExample /> */}
+      {/* <LifecycleB03 /> */}
+      {/* <ArrayMethods /> */}
+
+      {/* <Provider store={store}>
+        <Uis />
+      </Provider> */}
+      {/* <Provider store={store}>
+        <Uis04 />
+      </Provider> */}
+      {/* <LifecycleA /> */}
+      {/* <LifeCycleExampl02 /> */}
+      {/* <ParentCom01 /> */}
+      {/* <ParentCom02 /> */}
+      {/* <ParentComp /> */}
+      <UseCallBack />
+      {/* <Counter012 /> */}
+
 
     </div >
   );

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LifecycleB from './lifecycle2'
+import LifecycleB from '../../PracticeFiles/03/lifecycle2'
 
 
 class LifecycleA extends Component {
