@@ -7,10 +7,10 @@ function List01(props) {
             <h2>list</h2>
             {
                 props.arraylist.filter((value) => {
-
-
-                    return value
-
+                    if (value.includes(props.search)) {
+                        console.log(true)
+                        return value
+                    }
                 })
             }
         </div>

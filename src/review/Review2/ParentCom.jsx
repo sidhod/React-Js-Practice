@@ -8,10 +8,7 @@ function ParentCom02() {
     const [search, setSearch] = useState('')
     const [array, setarray] = useState(['sid', 'sai', 'sidhodhan'])
     function getSearch(value) {
-        setSearch((prevState) => ({
-            ...prevState,
-            value
-        }))
+        setSearch(value)
     }
 
     return (

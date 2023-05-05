@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react'
 
-function Counter012() {
+function ExampleuseMemo() {
     const [counterOne, setCounterOne] = useState(0)
     const [counterTwo, setCounterTwo] = useState(0)
 
@@ -15,21 +15,23 @@ function Counter012() {
     const isEven = useMemo(() => {
         let i = 0
         while (i < 2000000000) i++
-        return counterOne % 2 === 0
+        return counterOne
     }, [counterOne])
 
     return (
         <div>
             <h5>useMemo Hook</h5>
             <div>
-                <button onClick={incrementOne}>Count One - {counterOne}</button>
-                <span>{isEven ? 'Even' : 'Odd'}</span>
+                <button onClick={incrementOne}>Count One</button>
+                <span>{counterOne}</span>
             </div>
             <div>
-                <button onClick={incrementTwo}>Count Two - {counterTwo}</button>
+                <button onClick={incrementTwo}>Count Two</button>
+                <span>{counterTwo}</span>
+
             </div>
         </div>
     )
 }
 
-export default Counter012
+export default ExampleuseMemo

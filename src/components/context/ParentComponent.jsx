@@ -10,7 +10,6 @@ function ParentComponent() {
             <ProviderN value={name}>
                 <ComponentA />
             </ProviderN>
-
         </div>
     );
 }

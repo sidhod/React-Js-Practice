@@ -89,7 +89,7 @@ import ArrayMethods from './PracticeFiles/03/arrayMethods';
 import Uis from './PracticeFiles/03/Uis';
 // import store from './PracticeFiles/03/store';
 import Uis04 from './PracticeFiles/04/Uis';
-import store from './PracticeFiles/04/store';
+// import store from './PracticeFiles/04/store';
 import ClassCounterOne from './components/lifecycle/lifecycleExample';
 import LifecycleA from './components/lifecycle/lifecycle1';
 import LifeCycleExampl02 from './components/lifecycle/LifeCycleExampl02';
@@ -100,6 +100,29 @@ import UseCallBack from './components/useCallback/useCallback';
 import Counter012 from './components/useMemo/useMemo';
 import PureComponent from './components/pureComponents/pureComponent';
 import ParentComp from './components/pureComponents/ParentComp';
+import ExampleuseMemo from './components/useMemo/ExampleuseMemo';
+import UICom from './PracticeFiles/05/UIs';
+// import store from './PracticeFiles/05/store';
+import ExampleOfLifeCycle from './components/lifecycle/ExampleOfLifeCycle';
+import Component01 from './review/Review2/Example/Component';
+import UseStateHook from './Allhooks/useState';
+import UseseEffectHook from './Allhooks/useEffectHook';
+import UseContextHook from './Allhooks/useContextHook';
+import FormExample from './Allhooks/Form';
+import ClassComponet from './Allhooks/classComponet';
+import ConditionalRendering1 from './Allhooks/ConditionalRendering';
+import ListRenderingCom from './Allhooks/ListRendering';
+import TypesofCss from './Allhooks/TypesofCss';
+import UserReducerHook from './Allhooks/UseReducerHook';
+import LifeCycleExample from './Allhooks/LifeCycle';
+import PracticeUi from './Allhooks/Redux/practiceUi';
+import { store } from './Allhooks/Redux/store';
+import { Fragment, Profiler } from 'react';
+import FragmentsDemo from './Allhooks/fragments';
+import PoratalDemo01 from './Allhooks/PoratalDemo01';
+import ParentCompPra from './Allhooks/renderProps/ParentCompPra';
+import ExampleofInterceptor from './Allhooks/interceptor/ExampleofInterceptor';
+import NormalCom from './Allhooks/Profiler/NormalCom';
 
 
 function App() {
@@ -239,10 +262,33 @@ function App() {
       {/* <ParentCom01 /> */}
       {/* <ParentCom02 /> */}
       {/* <ParentComp /> */}
-      <UseCallBack />
+      {/* <UseCallBack /> */}
       {/* <Counter012 /> */}
-
-
+      {/* <ExampleuseMemo /> */}
+      {/* <Provider store={store}>
+        <UICom />
+      </Provider> */}
+      {/* <ExampleOfLifeCycle /> */}
+      {/* <Component01 /> */}
+      {/********************************************/}
+      {/* <UseStateHook />
+      <UseseEffectHook />
+      <UseContextHook /> */}
+      {/* <FormExample /> */}
+      {/* <ClassComponet /> */}
+      {/* <ConditionalRendering1 /> */}
+      {/* <ListRenderingCom /> */}
+      {/* <TypesofCss /> */}
+      {/* <UserReducerHook /> */}
+      {/* <LifeCycleExample /> */}
+      {/* <Provider store={store}>
+        <PracticeUi />
+      </Provider > */}
+      {/* <FragmentsDemo /> */}
+      {/* <PoratalDemo01 /> */}
+      {/* <ParentCompPra /> */}
+      {/* <ExampleofInterceptor /> */}
+      <NormalCom />
     </div >
   );
 }

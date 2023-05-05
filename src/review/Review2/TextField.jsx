@@ -4,12 +4,7 @@ import React, { useState } from 'react'
 function TextField01(props) {
     const [searchValue, setSearchValue] = useState({ value: '' })
     const search = (event) => {
-        setSearchValue((prevState) => ({
-            ...prevState,
-            value: event.target.value
-        }))
-        props.getSearch(searchValue)
-
+        props.getSearch(event.target.value)
     }
     const clickButton = () => {
 
