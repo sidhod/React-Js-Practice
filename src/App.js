@@ -71,7 +71,7 @@ import Interfaces from './components/Redux1/ui';
 // import store from './components/Redux1/store';
 import ParentComponent from './components/context/ParentComponent';
 import MemoExample from './components/memo/memo';
-import { Button } from '@mui/material';
+import { Button, Checkbox } from '@mui/material';
 import ButtonComponents from './components/Redux3/ui3s';
 // import store from './components/Redux3/store'
 import ParentCom from './components/context/Example/ParentCom';
@@ -123,6 +123,10 @@ import PoratalDemo01 from './Allhooks/PoratalDemo01';
 import ParentCompPra from './Allhooks/renderProps/ParentCompPra';
 import ExampleofInterceptor from './Allhooks/interceptor/ExampleofInterceptor';
 import NormalCom from './Allhooks/Profiler/NormalCom';
+import ComponetParent from './Task/ComponetParent';
+import ChecklistReact from './Task/checklistReact';
+import LinkExample from './Task/ReactBootstarpCom.jsx/LinkExample';
+import FormUsingbootstrap from './Task/ReactBootstarpCom.jsx/FormUsingbootstrap';
 
 
 function App() {
@@ -288,7 +292,11 @@ function App() {
       {/* <PoratalDemo01 /> */}
       {/* <ParentCompPra /> */}
       {/* <ExampleofInterceptor /> */}
-      <NormalCom />
+      {/* <NormalCom /> */}
+      {/* <ComponetParent /> */}
+      {/* <ChecklistReact /> */}
+      {/* <LinkExample /> */}
+      <FormUsingbootstrap />
     </div >
   );
 }

@@ -5,7 +5,7 @@ import FormExample from '../Form'
 
 function NormalCom() {
     function checkDetail(id, phase, actualDuration, baseDuration, startTime, commitTime) {
-        console.log("id-" + id + " phase-" + phase + " duration-" + actualDuration + " baseduration-" + baseDuration + " StartTime-" + startTime + " CommitTime-" + commitTime)
+        console.log("id-" + id + "phase-" + phase + " duration-" + actualDuration + " baseduration-" + baseDuration + " StartTime-" + startTime + " CommitTime-" + commitTime)
     }
     return (
         <div>
